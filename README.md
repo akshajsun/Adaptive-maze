@@ -1,6 +1,7 @@
 <p align="center">
   <img src="banner.png" alt="Adaptive Maze Game Banner" width="100%" />
 </p>
+
 ## 🌀 Adaptive Maze Game
 
 A **smart, clean, browser-based puzzle game** featuring **RL-powered procedural maze generation** and **dynamic difficulty adaptation** — built with **JavaScript** and **HTML5 Canvas**.
