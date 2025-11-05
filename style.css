@@ -1,0 +1,101 @@
+/* General Body Styles */
+body {
+    margin: 0;
+    overflow: hidden;
+    background-color: #1a1a1a; /* Dark background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Game Container */
+#game-container {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 20px;
+    background-color: #2c2c2c;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+/* UI Panel */
+#ui-panel {
+    display: none; /* Hidden by default */
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px;
+    background: #252525;
+    border-radius: 15px;
+    border: 1px solid #444;
+    width: 200px;
+}
+
+/* Stat Box */
+.stat-box {
+    background: #333;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #555;
+}
+
+.stat-box h2 {
+    margin: 0;
+    font-size: 1em;
+    font-weight: 400;
+    color: #aaa;
+}
+
+.stat-box p {
+    margin: 5px 0 0;
+    font-size: 1.6em;
+    font-weight: 600;
+    color: #fff;
+}
+
+/* Menu Button */
+#menu-button {
+    background-color: #4a4a4a;
+    color: #fff;
+    border: 1px solid #666;
+    border-radius: 10px;
+    padding: 10px;
+    font-family: 'Arial', sans-serif;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+#menu-button:hover {
+    background-color: #5a5a5a;
+}
+
+/* Canvas */
+canvas {
+    background-color: #111;
+    display: block;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Scene Transition Overlay */
+#transition-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #1a1a1a;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease-in-out;
+    z-index: 1000;
+}
+
+#transition-overlay.active {
+    opacity: 1;
+    visibility: visible;
+}

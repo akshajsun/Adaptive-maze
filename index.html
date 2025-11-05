@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adaptive Maze Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="game-container">
+        <div id="ui-panel">
+            <div class="stat-box">
+                <h2>Difficulty</h2>
+                <p id="difficulty-value">1</p>
+            </div>
+            <div class="stat-box">
+                <h2>Time</h2>
+                <p id="time-value">0.0s</p>
+            </div>
+            <div class="stat-box">
+                <h2>Moves</h2>
+                <p id="moves-value">0</p>
+            </div>
+            <button id="menu-button">Menu</button>
+        </div>
+        <canvas id="gameCanvas"></canvas>
+    </div>
+
+    <div id="transition-overlay"></div>
+
+    <script src="js/config.js"></script>
+    <script src="js/maze.js"></script>
+    <script src="js/player.js"></script>
+    <script src="js/rl.js"></script>
+    <script src="js/particles.js"></script>
+    <script src="js/ui.js"></script>
+    <script src="js/game.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
