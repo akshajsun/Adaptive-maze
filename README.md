@@ -54,19 +54,6 @@ Design-	Clean, responsive layout
 
 ---
 
-## 📁 Project Structure
-project/
-├── index.html         # Entry point
-├── main.js            # Game loop
-├── maze.js            # Maze generation & rendering
-├── player.js          # Player movement logic
-├── rl.js              # Reinforcement learning agent
-├── ui.js              # User Interface & HUD
-├── style.css          # Visual styling
-└── README.md
-
----
-
 ## 💡 Project Highlights
 
 🧠 Constant RL-driven difficulty adjustment for deep replayability.
